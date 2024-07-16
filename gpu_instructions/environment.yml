@@ -16,4 +16,4 @@ dependencies:
       - torch
       - torchvision
       - matplotlib
-prefix: /BS/text-to-3d/work/anaconda3/envs/hlcv-ss23
+prefix: /home/hlcv_team004/miniconda3/envs/hlcv-ss23
