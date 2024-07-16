@@ -3,7 +3,7 @@ channels:
   - pytorch
   - defaults
 dependencies:
-  - python=3.9.*
+  - python=3.9
   - pytorch=2.0.0=py3.9_cuda11.7_cudnn8.5.0_0
   - torchvision=0.15.0=py39_cu117
   - numpy=1.23.*
@@ -11,9 +11,8 @@ dependencies:
   - torchvision=0.15.*
   - matplotlib=3.7.*
   - pip:
-      - wandb==0.15.3
       - numpy
       - torch
       - torchvision
       - matplotlib
-prefix: /home/hlcv_team004/miniconda3/envs/hlcv-ss23
+prefix: /home/hlcv_team004/miniconda3/envs
