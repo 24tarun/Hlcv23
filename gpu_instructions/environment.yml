@@ -1,94 +1,18 @@
 name: hlcv-ss23
 channels:
   - pytorch
-  - nvidia
-  - anaconda
   - defaults
 dependencies:
-  - cuda-cudart=11.7.99=0
-  - cuda-cupti=11.7.101=0
-  - cuda-libraries=11.7.1=0
-  - cuda-nvrtc=11.7.99=0
-  - cuda-nvtx=11.7.91=0
-  - cuda-runtime=11.7.1=0
-  - importlib-metadata=6.0.0=py39h06a4308_0
-  - importlib_metadata=6.0.0=hd3eb1b0_0
-  - importlib_resources=5.2.0=pyhd3eb1b0_1
-  - intel-openmp=2021.4.0=h06a4308_3561
-  - ipykernel=6.19.2=py39hb070fc8_0
-  - ipython=8.12.0=py39h06a4308_0
-  - ipython_genutils=0.2.0=pyhd3eb1b0_1
-  - jedi=0.18.1=py39h06a4308_1
-  - jinja2=3.1.2=py39h06a4308_0
-  - jpeg=9e=h5eee18b_1
-  - json5=0.9.6=pyhd3eb1b0_0
-  - jsonschema=4.17.3=py39h06a4308_0
-  - jupyter_client=8.1.0=py39h06a4308_0
-  - jupyter_core=5.3.0=py39h06a4308_0
-  - jupyter_server=1.23.4=py39h06a4308_0
-  - jupyterlab=3.5.3=py39h06a4308_0
-  - jupyterlab_pygments=0.1.2=py_0
-  - jupyterlab_server=2.22.0=py39h06a4308_0
-  - matplotlib=3.7.1=py39h06a4308_1
-  - matplotlib-base=3.7.1=py39h417a72b_1
-  - matplotlib-inline=0.1.6=py39h06a4308_0
-  - mpmath=1.2.1=py39h06a4308_0
-  - numpy=1.23.5=py39h14f4228_0
-  - numpy-base=1.23.5=py39h31eccc5_0
-  - openh264=2.1.1=h4ff587b_0
-  - openssl=1.1.1t=h7f8727e_0
-  - packaging=23.0=py39h06a4308_0
-  - pandas=1.5.2=py39h417a72b_0
-  - pickleshare=0.7.5=pyhd3eb1b0_1003
-  - pillow=9.4.0=py39h6a678d5_0
-  - pip=23.0.1=py39h06a4308_0
-  - pyopenssl=23.0.0=py39h06a4308_0
-  - pyparsing=3.0.9=py39h06a4308_0
-  - pyqt=5.15.7=py39h6a678d5_1
-  - pyqt5-sip=12.11.0=py39h6a678d5_1
-  - pysocks=1.7.1=py39h06a4308_0
-  - python=3.9.16=h7a1cb2a_2
-  - python-dateutil=2.8.2=pyhd3eb1b0_0
-  - python-fastjsonschema=2.16.2=py39h06a4308_0
-  - pytorch=2.0.0=py3.9_cuda11.7_cudnn8.5.0_0
-  - pytorch-cuda=11.7=h778d358_3
-  - pytorch-mutex=1.0=cuda
-  - pytz=2022.7=py39h06a4308_0
-  - pyzmq=23.2.0=py39h6a678d5_0
-  - requests=2.28.1=py39h06a4308_1
-  - scipy=1.10.1=py39h14f4228_0
-  - sqlite=3.41.2=h5eee18b_0
-  - tk=8.6.12=h1ccaba5_0
-  - torchaudio=2.0.0=py39_cu117
-  - torchtriton=2.0.0=py39
-  - torchvision=0.15.0=py39_cu117
+  - python=3.9
+  - numpy
+  - pillow
+  - cudatoolkit=11.7  # CUDA toolkit for GPU support
+  - pytorch=2.0.0
+  - torchvision=0.15.0
+  - pip
   - pip:
-      - absl-py==1.4.0
-      - cachetools==5.3.0
-      - click==8.1.3
-      - docker-pycreds==0.4.0
-      - docopt==0.6.2
-      - gitdb==4.0.10
-      - gitpython==3.1.31
-      - grpcio==1.54.0
-      - imageio==2.27.0
-      - markdown==3.4.3
-      - oauthlib==3.2.2
-      - pathtools==0.1.2
-      - pipreqs==0.4.13
-      - protobuf==3.20.3
-      - pyasn1==0.5.0
-      - pyasn1-modules==0.3.0
-      - pyyaml==6.0
-      - setproctitle==1.3.2
-      - smmap==5.0.0
-      - tensorboard==2.13.0
-      - tensorboard-data-server==0.7.0
-      - tensorboardx==2.6
-      - tqdm==4.65.0
-      - wandb==0.15.3
       - numpy
       - torch
       - torchvision
-      - matplotlib
 prefix: /home/hlcv_team004/miniconda3/envs/hlcv-ss23
+
